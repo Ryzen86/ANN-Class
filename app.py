@@ -4,7 +4,7 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
 import pandas as pd
 import pickle
-
+##Importation  done !
 model =tf.keras.models.load_model('model.h5')
 
 ##load encoder and scalar(pickle files)
